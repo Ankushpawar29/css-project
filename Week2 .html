@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>My CSS Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>My First CSS Project</h1>
+    <p>Internship practice: 7 days of CSS.</p>
+
+    <nav class="top-nav">
+      <a href="#welcome">Home</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="card" id="welcome">
+      <h2>Welcome</h2>
+      <p>This small website is made to practice basic HTML and CSS.</p>
+      <button class="main-btn">Just a Button</button>
+    </section>
+
+    <section class="card" id="about">
+      <h2>About Me</h2>
+      <p>I am a beginner learning web development with HTML, CSS and JavaScript.</p>
+      <p>Right now I am focusing on simple layouts and responsive design.</p>
+    </section>
+
+    <section class="card">
+      <h2>My Goals</h2>
+      <p>I want to understand how to style text, use colors, and arrange boxes on the page.</p>
+      <p>I want to learn how to make websites look good on all devices.</p>
+      <p>I want to be a web developer in future.</p>
+    </section>
+
+    <section class="card" id="contact">
+      <h2>Contact Me</h2>
+      <form class="contact-form">
+        <label for="name">Name</label>
+        <input id="name" type="text" placeholder="Enter your name">
+
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="Enter your email">
+
+        <label for="message">Message</label>
+        <textarea id="message" rows="3" placeholder="Write something here"></textarea>
+
+        <button type="submit" class="main-btn">Send</button>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2>My Picture</h2>
+      <img src="https://via.placeholder.com/350x200" alt="Sample" class="main-image">
+      <p>This is a simple placeholder image.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>This is Made by Me during internship practice.</p>
+  </footer>
+</body>
+</html>
